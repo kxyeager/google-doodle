@@ -1,0 +1,85 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+*/
+
+/* * {
+    outline: 1px dotted black;
+} */
+
+/* Doodle Stage */
+#stage {
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 600px;
+}
+
+#stars {
+  height: 300px;
+  width: 600px;
+}
+
+/* SVG Elements */
+/* Check-Check: Correct selectors? */
+
+#o2 {
+  /*   fill: #462F20; */
+}
+
+#e {
+  /*   fill: #DD5F13; */
+}
+
+#o {
+  /*   fill: white; */
+}
+
+.slider {
+  display: none;
+  position: relative;
+  top: 10px;
+  right: 20px;
+  width: 150px;
+  color: white;
+  font-family: sans-serif;
+  text-align: right;
+}
+.slider input {
+  width: 70%;
+  margin-bottom: 5px;
+}
+
+canvas {
+  position: absolute;
+  left: center;
+  top: center;
+  z-index: -1;
+}
+
+.meteor {
+  position: absolute;
+
+  z-index: 0;
+}
+
+.meteor1 {
+  position: absolute;
+  z-index: 1;
+
+}
+
+.ufo {
+  position: absolute;
+  z-index: 0.1;
+
+}
+
+.google {
+  position: absolute;
+
+  z-index: 0.2;
+}
